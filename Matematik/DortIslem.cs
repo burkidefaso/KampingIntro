@@ -8,7 +8,7 @@ namespace Matematik
     {
         public void Topla(int sayi1, int sayi2)              // Parametreler değişken olanlardır.      Hesap Makinesi için metot oluşturduk
 
-        {
+        {                                           // Bazen fonksiyonların belli değerleri return etmesi istenilir eğer bu şekilde bir değer döndürmesi gerekmiyorsa yazılan metodumuzu void olarak tanımlarız
             int toplam = sayi1 + sayi2;
             Console.WriteLine("Sonuç : " + toplam);
         }

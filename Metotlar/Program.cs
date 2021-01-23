@@ -16,7 +16,7 @@ namespace Metotlar
             urun2.Id = 2;
             urun2.Adi = "Çilek";
             urun2.Fiyati = 12;
-            urun2.Aciklama = "Dağ Çileği";                                                         // Class lar özellik tutar
+            urun2.Aciklama = "Dağ Çileği";                                                         // Class lar özellik tutar.
 
             Urun[] urunler = new Urun[] {urun1,urun2};
 
