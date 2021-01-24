@@ -32,6 +32,7 @@ namespace Matematik
         {
             double bolme = sayi1 / sayi2;
             Console.WriteLine("Sonuç : " + bolme);
+
         }
     }
 }
