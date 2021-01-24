@@ -26,6 +26,9 @@ namespace Koleksiyonlar
             List<string> isimler3 = new List<string>();
             isimler3.Add("Engin");                                                                                           // List i kullanabilmek için List yazıp solundaki ampule basıp system.collections.generic i seçmen gerek
 
+            Console.WriteLine(isimler3[0]);
+
+            Console.WriteLine(isimler3.Count);
 
             List<string> isimler2 = new List<string> { "Engin", "Murat", "Kerem", "Halil" };                                 // List kullanımı yandaki 2 şekildeki gibi de olur.
 
